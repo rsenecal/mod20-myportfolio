@@ -1,10 +1,11 @@
 export default function Contact() {
 
-    return (
-        <section id="about">
-            <h1> Contact</h1>
-            
-        </section>
+    return(
+        <div className='' id="contact">
+            <p className=''>
+            Contact Form
+            </p>
+        </div>
     )
 
 }
