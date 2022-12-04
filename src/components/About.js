@@ -1,6 +1,7 @@
 import { 
     AiFillLinkedin,
     AiFillGithub, } from "react-icons/ai";
+    
 
 export default function About() {
     return(
@@ -17,7 +18,7 @@ export default function About() {
         <AiFillLinkedin />
         </div>
         <div className="relative mx-auto bg-gradient-to-b justify-center from-yellow-300 to-red-300 rounded-full w-80 h-80 mt-20 overflow-hidden">
-        <img alt="" src="https://loremflickr.com/320/240" />
+        <img alt="" src="/roody.png" alt="Roody" />
         </div>
     </section>
     )
