@@ -5,11 +5,11 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
-   <main>
+   <main className='text-gray-400 bg-gray-900 body-font'>
     <Navbar />
     <About />
     <Projects />
