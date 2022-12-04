@@ -1,18 +1,18 @@
 import { useState } from "react";
-import { AiFillEnvironment, AiOutlineCaretLeft } from "react-icons/ai";
+import { AiFillEnvironment, AiOutlineCaretLeft, AiOutlineUser, AiFillCode, AiFillProject,AiOutlineContacts } from "react-icons/ai";
 
 
 export default function Navbar() {
     const[open, setOpen] = useState(true)
     const NavItems = [
-        { title:'About Me' },
-        { title: 'Projects' },
-        { title: 'Skills' },
-        { title: 'Contact'}
+        { title:'About Me', icon: 'AiOutlineUser' },
+        { title: 'Projects', icon: 'AiFillProject' },
+        { title: 'Skills', icon:'AiFillCode' },
+        { title: 'Contact', icon:'AiOutlineContacts'}
         ];
-        
+
     return(
-        <div className={`bg-blue-300 h-screen p5 pt-8 text-blue ${open ? 'w-72' : 'w-20'} duration-300 relative`}>
+        <div className={`bg-blue-300 h-screen p-5 pt-8 text-blue ${open ? 'w-72' : 'w-20'} duration-300 relative`}>
 
             <AiOutlineCaretLeft className={`bg-blue-500 text-dark-purple  text-3xl rounded-full absolute -right-3 top-9 border border-white cursor-pointer ${!open && 'rotate-180'}`} 
             onClick={() => setOpen(!open) } 
@@ -24,7 +24,19 @@ export default function Navbar() {
                 <h1 className={`text-white origin-left font-medium text-2xl duration-300 ${!open && 'scale-0'}`}>
                     Portfolio
                 </h1>
+            </div>
+            <div className='flex items-center rounded-md bg-light-white mt-6 px-4 py-2'>
                 <ul className='pt-2'>
+                    {NavItems.map((nav, index) => (
+                        <>
+                        <li key={index} className='text-white text-lg flex-items-center gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md mt-2'>
+                            <span className='text-2xl block float-left p-1'>
+                            <AiOutlineContacts />
+                            </span>
+                            <span> {nav.title} </span>
+                        </li>
+                        </>
+                    ))}
 
                 </ul>
             </div>
