@@ -9,13 +9,19 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-   <div className='flex'>
+  <>
+    <head>
+        <title>Roodolph Senecal</title>
+        <meta name="description" content="Roodolph Portfolio Page"></meta>
+    </head>
+    <main className="bg-white px-10">
     <Navbar />
     <About />
     <Projects />
     <Skills />
     <Contact />
-   </div>
+  </main>
+  </>
   );
 }
 

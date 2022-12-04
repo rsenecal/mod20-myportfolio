@@ -21,12 +21,13 @@ export default function Navbar() {
 
     return(
    
-    <div>
-        <head>
-            <title>Roodolph Senecal</title>
-            <meta name="description" content="Roodolph Portfolio Page"></meta>
-        </head>
-        <main className="bg-white px-10">
+    // <div>
+    //     <head>
+    //         <title>Roodolph Senecal</title>
+    //         <meta name="description" content="Roodolph Portfolio Page"></meta>
+    //     </head>
+    //     <main className="bg-white px-10">
+    <>
             <section className="min-h-screen">
                 <nav clasName='py-10 mb-12 flex justify-between'>
                     <h1 className='text-xl'>Roody</h1>
@@ -57,13 +58,7 @@ export default function Navbar() {
                 <img alt="" src="https://loremflickr.com/320/240" />
                 </div>
             </section>
-
-            <section>
-                <h3 className="text-3xl py-1"> Services I offer</h3>
-                <p classNmae="text-md py-5 leading-8 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus massa enim, et ullamcorper mi rutrum ac. Suspendisse at dui urna. Cras lorem tortor, tincidunt vitae lacinia sed, feugiat in nunc.</p>
-            </section>
-        </main>
-
-    </div>
+    
+    </>
     )
 }
