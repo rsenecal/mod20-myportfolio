@@ -18,7 +18,7 @@ export default function About() {
         <AiFillLinkedin />
         </div>
         <div className="relative mx-auto bg-gradient-to-b justify-center from-yellow-300 to-red-300 rounded-full w-80 h-80 mt-20 overflow-hidden">
-        <img alt="" src="/roody.png" alt="Roody" />
+        <img src="/roody.png" alt="Roody" />
         </div>
     </section>
     )

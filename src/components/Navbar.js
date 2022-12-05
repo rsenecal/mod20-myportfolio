@@ -9,12 +9,12 @@ import { AiOutlineUser } from "react-icons/ai";
 
 export default function Navbar() {
     // const[open, setOpen] = useState(true)
-    const NavItems = [
-        { title:'About Me', icon: 'AiOutlineUser' },
-        { title: 'Projects', icon: 'AiFillProject' },
-        { title: 'Skills', icon:'AiFillCode' },
-        { title: 'Contact', icon:'AiOutlineContacts'}
-        ];
+    // const NavItems = [
+    //     { title:'About Me', icon: 'AiOutlineUser' },
+    //     { title: 'Projects', icon: 'AiFillProject' },
+    //     { title: 'Skills', icon:'AiFillCode' },
+    //     { title: 'Contact', icon:'AiOutlineContacts'}
+    //     ];
 
     return(
    

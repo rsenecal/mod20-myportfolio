@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
