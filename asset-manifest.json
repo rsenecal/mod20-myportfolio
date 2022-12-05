@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rsenecal/mod20-myportfolio/static/css/main.f7a23d42.css",
+    "main.js": "/rsenecal/mod20-myportfolio/static/js/main.44b00ed9.js",
+    "static/js/787.70c48a79.chunk.js": "/rsenecal/mod20-myportfolio/static/js/787.70c48a79.chunk.js",
+    "static/media/logo.svg": "/rsenecal/mod20-myportfolio/static/media/logo.76849bb959241b983825d134a59f967d.svg",
+    "index.html": "/rsenecal/mod20-myportfolio/index.html",
+    "main.f7a23d42.css.map": "/rsenecal/mod20-myportfolio/static/css/main.f7a23d42.css.map",
+    "main.44b00ed9.js.map": "/rsenecal/mod20-myportfolio/static/js/main.44b00ed9.js.map",
+    "787.70c48a79.chunk.js.map": "/rsenecal/mod20-myportfolio/static/js/787.70c48a79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7a23d42.css",
+    "static/js/main.44b00ed9.js"
+  ]
+}
