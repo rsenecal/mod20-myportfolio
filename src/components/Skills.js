@@ -8,7 +8,8 @@ export default function Skills() {
         <>
             <div className = "my-10">
                 <h3 className="text-3xl py-1"> Skills</h3>
-                <p className="text-md py-2 leading-8 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus massa enim, et ullamcorper mi rutrum ac. Suspendisse at dui urna. <span className="text-teal-500">Cras lorem tortor</span>, tincidunt vitae lacinia sed, feugiat in nunc.
+                <p className="text-md py-2 leading-8 text-gray-800">
+                The most useful skill is one's ability to continue to learn, adapt, and change. The skills listed below are just what I'm in the process of learning right now with respect to software development. I have a wide range of experience from manufacturing to fitness and wellness. I have years of experience managing a remote team with various backgrounds and languages. <span className="text-teal-500">Cras lorem tortor</span>, tincidunt vitae lacinia sed, feugiat in nunc.
                 </p>
             </div> 
 
@@ -24,7 +25,7 @@ export default function Skills() {
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">Tailwind</div>
                         <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        Rapidly build modern websites without ever leaving your HTML. A utility-first CSS framework packed with classes like <span className="text-blue-400">flex, pt-4, text-center</span> and <span className="text-blue-400">rotate-90</span> that can be composed to build any design, directly in your markup.
                         </p>
                     </div>
                     <div className="px-6 pt-4 pb-2">
