@@ -17,8 +17,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/rsenecal/mod20-myportfolio">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/50510/205808393-6486cc99-6a46-49d6-b286-726a4fdaae82.png" alt="Logo" width="80" height="80">
   </a>
+
+
 
 <!-- Project Name -->
 <h3 align="center">React Profile</h3>
@@ -69,6 +71,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+### Mobile first design approach.
+![portfolio_mobile](https://user-images.githubusercontent.com/50510/205808846-862a7faf-d147-411d-ae4a-4ee31935ddae.png)
+
+### Skills Section
+
+
+
+![Screenshot 2022-12-05 at 9 19 52 PM](https://user-images.githubusercontent.com/50510/205808954-c4d618ed-f96f-4105-b87f-8a6bce95703b.png)
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
