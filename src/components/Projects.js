@@ -1,8 +1,16 @@
+
+
+    import mfd from "../../src/img/mfd.png"
+    import safemed from "../../src/img/safemed.png"
+    import social from "../../src/img/sm-api.png"
+
+
 export default function Project() {
+
 
     return(
         <>
-            <div classNameName = "my-10 mb-10">
+            <div className = "my-10 mb-10">
                 <h3 className="text-3xl py-1"> Projects</h3>
                 <p className="text-md py-2 leading-8 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus massa enim, et ullamcorper mi rutrum ac. Suspendisse at dui urna. <span className="text-teal-500">Cras lorem tortor</span>, tincidunt vitae lacinia sed, feugiat in nunc.
                 </p>
@@ -16,8 +24,8 @@ export default function Project() {
                 <div className="rounded overflow-hidden shadow-lg bg-gray-100">
                     <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
                     <img
-                        src="/mfd.png"
-                        class="max-w-sm h-auto transition-shadow ease-in-out duration-300 shadow-sm hover:shadow-xl px-10"
+                        src={mfd}
+                        className="max-w-sm h-auto transition-shadow ease-in-out duration-300 shadow-sm hover:shadow-xl px-10"
                         alt=""
                     />
                     </div>
@@ -39,8 +47,8 @@ export default function Project() {
                 <div className="rounded overflow-hidden shadow-lg bg-gray-100">
                     <div className="text-5xl flex justify-center gap-16 py-3 px-10 text-gray-600">
                     <img
-                        src="/safemed.png"
-                        class="max-w-sm h-auto transition-shadow ease-in-out duration-300 shadow-sm hover:shadow-xl px-10"
+                        src={safemed}
+                        className="max-w-sm h-auto transition-shadow ease-in-out duration-300 shadow-sm hover:shadow-xl px-10"
                         alt=""
                     />
                     </div>
@@ -63,8 +71,8 @@ export default function Project() {
             <div className="rounded overflow-hidden shadow-lg bg-gray-100">
                 <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
                 <img
-                        src="/sm-api.png"
-                        class="max-w-sm h-auto transition-shadow ease-in-out duration-300 shadow-sm hover:shadow-xl px-10"
+                        src={social}
+                        className="max-w-sm h-auto transition-shadow ease-in-out duration-300 shadow-sm hover:shadow-xl px-10"
                         alt=""
                     />
                 </div>
