@@ -10,7 +10,7 @@ function App() {
   return (
   <>
 
-    <main className="bg-white px-10 md:px-20 lg:px:40">
+    <main className="bg-gray-100 px-10 md:px-20 lg:px:40">
     <section className="min-h-screen">
       <Navbar />
       <About />

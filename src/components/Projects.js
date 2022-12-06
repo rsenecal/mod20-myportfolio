@@ -12,7 +12,8 @@ export default function Project() {
         <>
             <div className = "my-10 mb-10">
                 <h3 className="text-3xl py-1"> Projects</h3>
-                <p className="text-md py-2 leading-8 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus massa enim, et ullamcorper mi rutrum ac. Suspendisse at dui urna. <span className="text-teal-500">Cras lorem tortor</span>, tincidunt vitae lacinia sed, feugiat in nunc.
+                <p className="text-md py-2 leading-8 text-gray-800">
+                Every project is unique, from the initial concept to the deployment the focus is always on your project. I welcome changes. Below are a few of my recent projects. Please check the apps or the GitHub repo. 
                 </p>
             </div> 
 
@@ -32,7 +33,7 @@ export default function Project() {
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">Marvel for Dummies</div>
                         <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur .
+                        As a Marvel fan, this was a very fun project. Marvel novices can search for any marvel character and quickly get a super detailed description of the character as well as a list of all the comics the character was featured in.
                         </p>
                     </div>
                     <div className="px-6 pt-4 pb-2">
@@ -55,7 +56,7 @@ export default function Project() {
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">safeMed</div>
                         <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur.
+                        Nothing is more satisfying than working on a project with the potential to help others. SafeMed provides a safe and secure collaboration between interdisciplinary teams within facilities eg. Hospitals, Nursing Homes, and Outpatient
                         </p>
                     </div>
                     <div className="px-6 pt-4 pb-2">
@@ -79,7 +80,7 @@ export default function Project() {
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">Social Network API</div>
                     <p className="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur 
+                    Creating an API is like meditation, it is about putting something in place others can depend on.  Implementing the tools necessary to effectively meet the user's criteria.
                     </p>
                 </div>
                     <div className="px-6 pt-4 pb-2">

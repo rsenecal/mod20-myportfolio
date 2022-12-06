@@ -21,7 +21,9 @@ export default function Navbar() {
     <>
             <section>
                 <nav className='py-10 mb-12 flex justify-between'>
-                    <h1 className='text-xl'>Roody</h1>
+                    <h1 className='text-sm text-orange-600'>Skills</h1>
+                    <h1 className='text-sm text-orange-700'>Projects</h1>
+                    <h1 className='text-sm text-orange-900'>Contact</h1>
                     <ul className='flex items-center'>
                         <li>
                             <AiOutlineUser className="cursor-pointer text-2xl"/>
@@ -31,6 +33,7 @@ export default function Navbar() {
                                 Portfolio
                                 </a>
                         </li>
+
                        
                     </ul>
                 </nav>
