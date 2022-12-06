@@ -6,7 +6,7 @@ export default function Skills() {
 
     return(
         <>
-            <div classNameName = "my-10">
+            <div className = "my-10">
                 <h3 className="text-3xl py-1"> Skills</h3>
                 <p className="text-md py-2 leading-8 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus massa enim, et ullamcorper mi rutrum ac. Suspendisse at dui urna. <span className="text-teal-500">Cras lorem tortor</span>, tincidunt vitae lacinia sed, feugiat in nunc.
                 </p>
