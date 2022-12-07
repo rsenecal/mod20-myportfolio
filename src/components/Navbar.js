@@ -1,41 +1,34 @@
-// import { useState } from "react";
-
-// import Img from 'react-optimized-image'
 
 import { AiOutlineUser } from "react-icons/ai";
-
-// import roody from "../public/roody.png"
-
-
+import { Link } from 'react-router-dom';
 export default function Navbar() {
-    // const[open, setOpen] = useState(true)
-    // const NavItems = [
-    //     { title:'About Me', icon: 'AiOutlineUser' },
-    //     { title: 'Projects', icon: 'AiFillProject' },
-    //     { title: 'Skills', icon:'AiFillCode' },
-    //     { title: 'Contact', icon:'AiOutlineContacts'}
-    //     ];
 
     return(
-   
-    <>
-            <section>
-                <nav className='py-10 mb-12 flex justify-between'>
-                    <h1 className='text-xl'>Roody</h1>
-                    <ul className='flex items-center'>
-                        <li>
-                            <AiOutlineUser className="cursor-pointer text-2xl"/>
-                        </li>
-                        <li>
-                            <a className="bg-gradient-to-r  from-yellow-300 to-red-300 text-white px-4 py-2 rounded-md ml-8" href="#home">
-                                Portfolio
-                                </a>
-                        </li>
-                       
-                    </ul>
-                </nav>
-            </section>
+  
+    <section>
+        <nav className='py-10 mb-12 flex justify-between'>
+        
+            <ul className='flex items-center gap-10 px-10'>
     
-    </>
+                <li className='text-sm text-orange-600'><Link to='/skills'> Skills</Link></li>
+                <li className='text-sm text-orange-600'><Link to='/projects'> Projects</Link></li>
+                <li className='text-sm text-orange-600'><Link to='/contact'> Contact</Link></li>
+                <li>
+                    <AiOutlineUser className="cursor-pointer text-2xl"/>
+                    
+                </li>
+                {/* <li>
+                    <a className="bg-gradient-to-r  from-yellow-300 to-red-300 text-white px-4 py-2 rounded-md ml-8" href="#home">
+                        Portfolio
+                        </a>
+                </li> */}
+
+                
+            </ul>
+ 
+        </nav>
+
+    </section>
+    
     )
 }
