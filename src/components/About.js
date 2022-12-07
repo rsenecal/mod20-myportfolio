@@ -21,8 +21,10 @@ export default function About() {
             </p>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-        <AiFillGithub />
-        <AiFillLinkedin />
+        <a href="https://github.com/rsenecal/" rel="noreferrer" target="_blank"><AiFillGithub /></a>
+      
+            <a href="https://www.linkedin.com/in/roodolph-senecal-a2757244/" rel="noreferrer" target="_blank"> <AiFillLinkedin /> </a>
+     
         </div>
         <div className="relative mx-auto bg-gradient-to-b justify-center from-yellow-300 to-red-300 rounded-full w-80 h-80 mt-20 overflow-hidden">
         <img src={roody} alt="Roody"></img>
