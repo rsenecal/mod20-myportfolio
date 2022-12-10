@@ -100,7 +100,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get started you can view the [portfolio](https://roody-mod20-myportfolio.herokuapp.com/) here. If you like you can clone it from the repo.
+To get started you can view the [portfolio](https://rsenecal.github.io/mod20-myportfolio/) here. If you like you can clone it from the repo.
 
 ### Prerequisites
 
