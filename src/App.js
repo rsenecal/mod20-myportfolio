@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef }  from 'react';
+// import { HashRouter, Routes, BrowserRouter, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -10,16 +11,16 @@ import Contact from './components/Contact';
 // import './App.css';
 
 function App() {
+  const myRef = useRef({ About, Skills, Projects, Contact })
   return (
 
   <main className="bg-gray-100 px-10 md:px-20 lg:px:40">
     <section className="min-h-screen">
-      <Navbar />
-      {/* <Main /> */}
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <Navbar myRef = {myRef}/>
+      <About myRef = {myRef} />
+      <Skills myRef = {myRef}/>
+      <Projects myRef = {myRef}/>
+      <Contact myRef = {myRef}/> 
 
     </section>
   </main>

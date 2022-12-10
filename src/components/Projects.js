@@ -5,12 +5,12 @@
     import social from "../../src/img/sm-api.png"
 
 
-export default function Project() {
+export default function Project({myRef}) {
 
 
     return(
-        <>
-            <div className = "my-10 mb-10">
+        <section ref={el=> (myRef.current.Projects = el)} >
+             <div  className = "my-10">
                 <h3 className="text-3xl py-1"> Projects</h3>
                 <p className="text-md py-2 leading-8 text-gray-800">
                 Every project is unique, from the initial concept to the deployment the focus is always on your project. I welcome changes. Below are a few of my recent projects. Please check the apps or the GitHub repo. 
@@ -96,7 +96,7 @@ export default function Project() {
             {/* Skils Cards  ENDS */}   
         </section>
 
-    </>
+    </section>
     )
     
 }
