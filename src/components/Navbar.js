@@ -10,10 +10,10 @@ export default function Navbar({myRef}) {
         
             <ul className='flex items-center gap-10 px-10'>
 
-                <li className='text-sm text-orange-600' onClick={e=> myRef.current.About.scrollIntoView()}> About</li>
-                <li className='text-sm text-orange-600'onClick={e=> myRef.current.Skills.scrollIntoView()}> Skills</li>
-                <li className='text-sm text-orange-600' onClick={e=> myRef.current.Projects.scrollIntoView()}>Projects</li>
-                <li className='text-sm text-orange-600' onClick={e=> myRef.current.Contact.scrollIntoView()}> Conatcts</li>
+                <li className='text-sm text-orange-600 cursor-pointer' onClick={e=> myRef.current.About.scrollIntoView()}> About</li>
+                <li className='text-sm text-orange-600 cursor-pointer'onClick={e=> myRef.current.Skills.scrollIntoView()}> Skills</li>
+                <li className='text-sm text-orange-600 cursor-pointer' onClick={e=> myRef.current.Projects.scrollIntoView()}>Projects</li>
+                <li className='text-sm text-orange-600 cursor-pointer' onClick={e=> myRef.current.Contact.scrollIntoView()}> Conatcts</li>
                 <li>
                     <AiOutlineUser className="cursor-pointer text-2xl"/>
                     
