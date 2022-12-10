@@ -1,7 +1,7 @@
 
 import { AiOutlineUser } from "react-icons/ai";
-import { Link } from 'react-router-dom';
-export default function Navbar() {
+// import { Link } from 'react-router-dom';
+export default function Navbar({myRef}) {
 
     return(
   
@@ -9,10 +9,11 @@ export default function Navbar() {
         <nav className='py-10 mb-12 flex justify-between'>
         
             <ul className='flex items-center gap-10 px-10'>
-    
-                <li className='text-sm text-orange-600'><Link to='/skills'> Skills</Link></li>
-                <li className='text-sm text-orange-600'><Link to='/projects'> Projects</Link></li>
-                <li className='text-sm text-orange-600'><Link to='/contact'> Contact</Link></li>
+
+                <li className='text-sm text-orange-600' onClick={e=> myRef.current.About.scrollIntoView()}> About</li>
+                <li className='text-sm text-orange-600'onClick={e=> myRef.current.Skills.scrollIntoView()}> Skills</li>
+                <li className='text-sm text-orange-600' onClick={e=> myRef.current.Projects.scrollIntoView()}>Projects</li>
+                <li className='text-sm text-orange-600' onClick={e=> myRef.current.Contact.scrollIntoView()}> Conatcts</li>
                 <li>
                     <AiOutlineUser className="cursor-pointer text-2xl"/>
                     

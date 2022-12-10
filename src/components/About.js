@@ -5,9 +5,10 @@ import {
     
 import roody from "../../src/img/roody.png"
 
-export default function About() {
+export default function About({myRef}) {
     return(
-        <section>
+        <section ref={el=> (myRef.current.About = el)} >
+        
         <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-orange-600 font-medium">Roodolph Senecal</h2>
             {/* <h3 className="text-2xl text-orange-500 py-2"> Developer, Yoga Teacher</h3> */}

@@ -4,11 +4,11 @@ import {
 
 import { SiTailwindcss, SiMongodb } from "react-icons/si"
 
-export default function Skills() {
+export default function Skills({myRef}) {
     return(
-        <>
-            <div  className = "my-10" id="skills">
-                <h3 className="text-3xl py-1"> Skills</h3>
+        <section ref={el=> (myRef.current.Skills = el)} >
+            <div  className = "my-10" >
+                <h3 className="text-3xl py-1"> Skills </h3>
                 <p className="text-md py-2 leading-8 text-gray-800">
                 The most useful skill is one's ability to continue to learn, adapt, and change. The skills listed below are just what I'm in the process of learning right now with respect to software development. I have a wide range of experience from manufacturing to fitness and wellness. I have years of experience managing a remote team with various backgrounds and languages. <span className="text-teal-500">Cras lorem tortor</span>, tincidunt vitae lacinia sed, feugiat in nunc.
                 </p>
@@ -75,6 +75,6 @@ export default function Skills() {
             {/* Skils Cards  ENDS */}   
         </section>
 
-    </>
+    </section>
     )
 }
